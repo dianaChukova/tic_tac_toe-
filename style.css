@@ -1,0 +1,36 @@
+#tic_tac_toe {
+    display:flex;
+    gap: 40px;
+  }
+  
+  .area {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    width: 130px;
+    justify-content: center; 
+  }
+  
+  .cell_1, .cell_2, .cell_3, .cell_4, .cell_5, .cell_6, .cell_7, .cell_8, .cell_9 {
+    border: none;
+    border-bottom: 2px solid #000000;
+    max-width: 100%;
+    width: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+    font-size-adjust:0.9;
+    text-align: center;
+    color: blue;
+    font-weight: bolder;
+  }
+  
+  .cell_1,  .cell_2, .cell_4, .cell_5, .cell_7, .cell_8 {
+    border-right: 2px solid  #000000;
+  }
+  
+  .cell_7, .cell_8, .cell_9 {
+    border-bottom: none;
+  }
+  
+  
